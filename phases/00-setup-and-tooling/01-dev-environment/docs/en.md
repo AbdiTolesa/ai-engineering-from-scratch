@@ -89,6 +89,7 @@ For TypeScript lessons (agents, MCP servers, web apps).
 ```bash
 curl -fsSL https://fnm.vercel.app/install | bash
 fnm install 22
+eval "$(fnm env --use-on-cd --shell zsh)"
 fnm use 22
 
 npm install -g pnpm
